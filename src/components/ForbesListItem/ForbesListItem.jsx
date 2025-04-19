@@ -3,8 +3,6 @@ import { FcBullish, FcBearish } from 'react-icons/fc';
 
 import style from './ForbesListItem.module.css';
 
-const icons = [BiDollarCircle, FcBullish, FcBearish];
-
 const ForbesListItem = ({ name, capital, avatar, isIncrease }) => {
   const Icon = isIncrease ? FcBullish : FcBearish;
   return (
